@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
  * @author Jiang Jian
  * @since 2020/1/12
  */
-@Target(ElementType.ANNOTATION_TYPE)
+@Target(ElementType.TYPE)
 @Retention(RetentionPolicy.SOURCE)
 public @interface ThreadSafe {
     String value() default "";
